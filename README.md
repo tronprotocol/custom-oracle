@@ -1,2 +1,2 @@
 # custom-oracle
-Custom oracle for the Tron blockchain.
+See https://developers.tron.network/docs/custom-oracle-implementation for docs
