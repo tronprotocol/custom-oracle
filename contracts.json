@@ -1,0 +1,127 @@
+{
+  "PriceOracle.sol:PriceOracle": {
+    "address": "410F680C5418373430AC4EA9B8FB4BD59F7D25F468",
+    "abi": [
+      {
+        "constant": false,
+        "inputs": [],
+        "name": "initUpdate",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "oracleAddress",
+        "outputs": [
+          {
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "price",
+            "type": "string"
+          },
+          {
+            "name": "rank",
+            "type": "string"
+          },
+          {
+            "name": "marketCap",
+            "type": "string"
+          },
+          {
+            "name": "vol24H",
+            "type": "string"
+          },
+          {
+            "name": "perChange1H",
+            "type": "string"
+          },
+          {
+            "name": "perChange1D",
+            "type": "string"
+          },
+          {
+            "name": "perChange7D",
+            "type": "string"
+          }
+        ],
+        "name": "updatePrice",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "name": "_oracleAddress",
+            "type": "address"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "name": "price",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "name": "rank",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "name": "marketCap",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "name": "vol24H",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "name": "perChange1H",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "name": "perChange1D",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "name": "perChange7D",
+            "type": "string"
+          }
+        ],
+        "name": "PriceUpdate",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [],
+        "name": "InitUpdate",
+        "type": "event"
+      }
+    ]
+  }
+}
